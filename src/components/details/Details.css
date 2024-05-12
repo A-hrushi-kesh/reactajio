@@ -1,0 +1,21 @@
+.detailsimg{
+    display: flex;
+    padding: 30px;
+    width: 25%;
+    height: 400px;
+    
+}
+.detailsdiscription{
+    display: flex;
+    padding: 20px;
+    width: 40%;
+    height: 400px;
+    
+}
+.details{
+    display: flex;
+    margin-top: 50px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}

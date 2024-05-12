@@ -1,0 +1,29 @@
+#all{
+    display: flex;
+    height: 70px;
+    background-color: black;
+}
+#col1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    font-size:30px;
+    font-weight:500;
+    width: 20%;
+    margin-left: 0%;
+}
+#col2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    text-decoration: none;
+    font-size:17px;
+    width: 60%;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+    margin-right: 20px;
+}

@@ -1,0 +1,8 @@
+#cardmain:hover{
+    transform: scale(1.05);
+    transition-duration: .7s;
+}
+#cardbody:hover{
+    background-color: black;
+    color: aliceblue;
+}
