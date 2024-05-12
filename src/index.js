@@ -1,5 +1,5 @@
 import ReactDOM from 'react-dom';
-import './index.css';
+
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 
@@ -22,10 +22,10 @@ import Homecard from './components/home/Homecard.js';
  
 function Assemble(){
     return(
-        <BrowserRouter basename="/reactajio ">
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
             <Nav/>
             <Routes>
-                <Route exact path="/reactajio" element={<Home/>}/>
+                <Route path="/" element={<Home/>}/>
                 <Route path="/product" element={<Product/>}/>
                 <Route path="/cart" element={<Cart/>}/>
                 <Route path="/signin" element={<Signin/>}/>
@@ -37,4 +37,4 @@ function Assemble(){
     );
 }
 
-ReactDOM.render(<Assemble/>,document.getElementById("root"));
+ReactDOM.render(<Assemble/>, document.getElementById("root"));
