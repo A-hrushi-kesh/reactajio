@@ -22,10 +22,10 @@ import Homecard from './components/home/Homecard.js';
  
 function Assemble(){
     return(
-        <BrowserRouter>
+        <BrowserRouter basename="/reactajio ">
             <Nav/>
             <Routes>
-                <Route  path="/" element={<Home/>}/>
+                <Route exact path="/reactajio" element={<Home/>}/>
                 <Route path="/product" element={<Product/>}/>
                 <Route path="/cart" element={<Cart/>}/>
                 <Route path="/signin" element={<Signin/>}/>
