@@ -23,16 +23,16 @@ import Homecard from './components/home/Homecard.js';
 function Assemble(){
     return(
         <BrowserRouter  basename={process.env.PUBLIC_URL}>
-        <Nav/>
-        <Routes>
-            <Route path="/" element={<Home/>}/>
-            <Route path="/product" element={<Product/>}/>
-            <Route path="/cart" element={<Cart/>}/>
-            <Route path="/signin" element={<Signin/>}/>
-            <Route path="/details/:id" element={<Details/>}/>
-            <Route path="/Homecard/:catogory" element={<Homecard/>}/>
-            <Route path="*" element={<PageNotFound/>}/>
-        </Routes>
+            <Nav/>
+            <Routes>
+                <Route  path="/" element={<Home/>}/>
+                <Route path="/product" element={<Product/>}/>
+                <Route path="/cart" element={<Cart/>}/>
+                <Route path="/signin" element={<Signin/>}/>
+                <Route path="/details/:id" element={<Details/>}/>
+                <Route path="/Homecard/:catogory" element={<Homecard/>}/>
+                <Route path="*" element={<PageNotFound/>}/>
+            </Routes>
         </BrowserRouter>
     );
 }

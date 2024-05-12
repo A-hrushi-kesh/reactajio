@@ -1,13 +1,13 @@
 import React from 'react'
-import { con,price } from '../product/card'
+// import { con,price } from '../product/card'
 
 export function Cartcard({props}) {
-    function newcart(){
-        con.pop()
-        let op=props.price
-        price=price-op
+    // function newcart(){
+    //     con.pop()
+    //     let op=props.price
+    //     price=price-op
 
-    }
+    // }
   return (
     <div className='row g-1 mt-4'>
         <div class="card mb-3" style={{maxWidth:"80%",maxHeight:"400px", margin:"1px auto"}}>

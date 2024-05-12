@@ -6,7 +6,7 @@ import { con , price } from '../product/card'
 function Cart() {
   const[Total,setTotal]=useState(price)
     function display(){
-        if(con.length==0)
+        if(con.length===0)
             return <h1>cart is empty</h1>
         else{
            return con.map(function(el,inx){
