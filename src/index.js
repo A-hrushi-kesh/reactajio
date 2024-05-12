@@ -22,7 +22,7 @@ import Homecard from './components/home/Homecard.js';
  
 function Assemble(){
     return(
-        <BrowserRouter  basename={process.env.PUBLIC_URL}>
+        <BrowserRouter>
             <Nav/>
             <Routes>
                 <Route  path="/" element={<Home/>}/>
